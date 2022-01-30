@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cb87fc79a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <div class = "calculator">
+<h1>Calculator</h1>
+    </div>
+    <textarea id="input-area"></textarea>
+
+    <div class="numbers">
+      <button class="number calc-btn" type="button" value="1">1</button>
+      <button class="number calc-btn" type="button" value="2">2</button>
+      <button class="number calc-btn" type="button" value="3">3</button>
+      <button class="operator calc-btn" type="button" value="x">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="numbers">
+      <button class="number calc-btn" type="button" value="4">4</button>
+      <button class="number calc-btn" type="button"value="5">5</button>
+      <button class="number calc-btn" type="button"value="6">6</button>
+      <button class="operator calc-btn" type="button" value="/"> 
+        <i class="fas fa-divide"></i>
+      </button>
+    </div>
+
+    <div class="numbers">
+      <button class="number calc-btn" type="button" value="7">7</button>
+      <button class="number calc-btn" type="button" value="8">8</button>
+      <button class="number calc-btn" type="button" value="9">9</button>
+      <button class="operator calc-btn" type="button" value="+">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+
+    <div class="numbers">
+      <button class="number calc-btn" type="button" value=" "></button>
+      <button class="number calc-btn" type="button"value="0">0</button>
+      <button class="submit" type="button">
+        <i class="fas fa-equals"></i>
+      </button>
+      <button class="operator calc-btn" type="button">
+        <i class="fas fa-minus"></i>
+      </button>
+    </div>
+
+    <div id="answer"></div>
+
+    <div class="operators"></div>
+  </body>
+
+  <script src="./js.js"></script>
+    <script src="./jsprc.js"></script>
+
+</html>

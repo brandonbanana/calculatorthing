@@ -1,0 +1,49 @@
+.numbers {
+  display: flex;
+
+
+}
+
+#input-area{ 
+
+    background: linear-gradient( 
+0deg
+ , rgba(111,34,195,1) 0%, rgba(45,253,249,1) 100%);
+    width: 174px;
+
+
+}
+.calculator{
+ font-size: 10px;
+    width: 100px;
+     
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(80, 95, 230));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.number{
+  font-size: 50px;
+    width: 75px;
+    background: rgb(111,34,195);
+background: linear-gradient(0deg, rgba(111,34,195,1) 0%, rgba(45,253,249,1) 100%);
+}
+
+.operator,.submit {
+  font-size: 35px;
+    width: 75px;
+background: rgb(111,34,195);
+background: linear-gradient(0deg, rgba(111,34,195,1) 0%, rgba(45,253,249,1) 100%);}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(36,0,0);
+background: linear-gradient(90deg, rgba(36,0,0,0) 0%, rgba(194,0,255,1) 0%, rgba(0,131,255,1) 100%);
+}
+
